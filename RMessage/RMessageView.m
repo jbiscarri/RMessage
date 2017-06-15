@@ -874,18 +874,16 @@ static NSMutableDictionary *globalDesignDictionary;
       } else {
         /* Navigation bar hidden or being asked to present as nav bar overlay, so present above status bar and/or
          navigation bar */
-        /*
+        
         self.titleSubtitleContainerViewCenterYConstraint.constant =
-          [UIApplication sharedApplication].statusBarFrame.size.height / 2.f;
-          */
-
-          self.titleSubtitleContainerViewCenterYConstraint.constant = 0;
+          [UIApplication sharedApplication].statusBarFrame.size.height / 2.f;          
       }
     }
   } else {
     if (self.messagePosition != RMessagePositionBottom) {
-      self.titleSubtitleContainerViewCenterYConstraint.constant =
-        [UIApplication sharedApplication].statusBarFrame.size.height / 2.f;
+      //self.titleSubtitleContainerViewCenterYConstraint.constant =
+      //  [UIApplication sharedApplication].statusBarFrame.size.height / 2.f;
+        self.titleSubtitleContainerViewCenterYConstraint.constant = 0;
     }
   }
   if (!self.superview) [self.viewController.view addSubview:self];
