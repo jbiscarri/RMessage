@@ -4,9 +4,9 @@
     "backgroundColorAlpha": 1.0,
     "titleTextColor": "#FFFFFF",
     "titleFontSize": 14,
-    "subTitleFontSize": 12,
-    "subTitleTextColor": "#FFFFFF",
-    "iconImage": "NotificationBackgroundSuccessIcon.png",
+    "subtitleFontSize": 12,
+    "subtitleTextColor": "#FFFFFF",
+    "leftViewImage": "NotificationBackgroundSuccessIcon.png",
     "blurBackground": 0
   },
   "normal": {
@@ -14,8 +14,8 @@
     "backgroundColorAlpha": 1.0,
     "titleTextColor": "#727C83",
     "titleFontSize": 14,
-    "subTitleFontSize": 12,
-    "subTitleTextColor": "#727C83",
+    "subtitleFontSize": 12,
+    "subtitleTextColor": "#727C83",
     "blurBackground": 0
   },
   "warning": {
@@ -23,9 +23,9 @@
     "backgroundColorAlpha": 1.0,
     "titleTextColor": "#484638",
     "titleFontSize": 14,
-    "subTitleFontSize": 12,
-    "subTitleTextColor": "#484638",
-    "iconImage": "NotificationBackgroundWarningIcon.png",
+    "subtitleFontSize": 12,
+    "subtitleTextColor": "#484638",
+    "leftViewImage": "NotificationBackgroundWarningIcon.png",
     "blurBackground": 0
   },
   "error": {
@@ -33,9 +33,9 @@
     "backgroundColorAlpha": 1.0,
     "titleTextColor": "#FFFFFF",
     "titleFontSize": 14,
-    "subTitleFontSize": 12,
-    "subTitleTextColor": "#FFFFFF",
-    "iconImage": "NotificationBackgroundErrorIcon.png",
+    "subtitleFontSize": 12,
+    "subtitleTextColor": "#FFFFFF",
+    "leftViewImage": "NotificationBackgroundErrorIcon.png",
     "blurBackground": 0
   }
 }

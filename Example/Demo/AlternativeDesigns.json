@@ -1,0 +1,10 @@
+{
+  "alternate-error": {
+    "titleTextColor": "#48FCEB",
+    "titleFontSize": 14,
+    "subtitleFontSize": 14,
+    "subtitleTextColor": "#FFFFFF",
+    "leftViewImage": "NotificationBackgroundErrorIcon.png",
+    "backgroundColor": "#008AFC"
+  }
+}
