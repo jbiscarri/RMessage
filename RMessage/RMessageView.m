@@ -351,7 +351,7 @@ static NSMutableDictionary *globalDesignDictionary;
   _completionBlock = completionBlock;
   _messageType = messageType;
   _customTypeName = customTypeName;
-  _interElementMargin = 8.f;
+  _interElementMargin = 15.f;
 
   _interElementMarginConstraints = [NSMutableArray
     arrayWithObjects:self.titleSubtitleContainerViewLeadingConstraint, self.titleSubtitleVerticalSpacingConstraint,
